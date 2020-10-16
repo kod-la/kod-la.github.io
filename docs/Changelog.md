@@ -10,6 +10,10 @@ Projenin gelişiminin kaydı.
 
 2020 yılının kayıtları.
 
+### _16 Ekim_ {docsify-ignore}
+
+- Dark/Light mode switcher eklendi.
+
 ### _31 Temmuz_ {docsify-ignore}
 
 - SQL konusuna başlandı.
