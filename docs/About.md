@@ -10,9 +10,9 @@
 
 Üzerinde çalıştığımız konuların listesi.
 
-- [x] Programlama
+- [ ] Programlama
   - [x] Java
-- [x] Sunucu
+- [ ] Sunucu
   - [x] SQL
 
 ## Eklenmesi Planlanan Konular
