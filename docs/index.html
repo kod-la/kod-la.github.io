@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kod-la</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/_media/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Kod-la",
+        logo: "/_media/logo.png",
+        ga: "UA-145380718-2",
+        loadSidebar: "_sidebar.md",
+        subMaxLevel: 3,
+        auto2top: true,
+        search: "auto",
+        notFoundPage: "_404.md",
+        topMargin: 10,
+        homepage: "Home.md",
+        mergeNavbar: true,
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "Ara",
+          noData: "Sonuç Bulunamadı!",
+          depth: 2,
+          hideOtherSidebarContent: true,
+        },
+        copyCode: {
+          buttonText: "Kopyala",
+          errorText: "Hata",
+          successText: "Kopyalandı",
+        },
+        tabs: {
+          persist: true,
+          sync: false,
+          theme: "material",
+          tabComments: false,
+          tabHeadings: true,
+        },
+        pagination: {
+          previousText: "Önceki",
+          nextText: "Sonraki",
+          crossChapter: true,
+          crossChapterText: false,
+        },
+        themeable: {
+          readyTransition: true,
+          responsiveTables: true,
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              if (/githubusercontent\.com/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace("raw.githubusercontent.com", "github.com")
+                  .replace(/\/master/, "/blob/master");
+              } else if (/jsdelivr\.net/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace("cdn.jsdelivr.net/gh", "github.com")
+                  .replace("@master", "/blob/master");
+              } else {
+                url =
+                  "https://github.com/wynioux/turkish-developer-handbook/blob/master/docs/" +
+                  vm.route.file;
+              }
+              var editHtml = "[:memo: Belgeyi Düzenle](" + url + ")\n";
+              return editHtml + html;
+            }),
+              hook.afterEach(function (html) {
+                if (vm.route.path === "/") {
+                  return html;
+                }
+                return `${html}<br/>Copyright © Bahadır A. Güder <i>2018-2020</i><br/>`;
+              });
+          },
+        ],
+        count: {
+          countable: true,
+          position: "top",
+          margin: "0px",
+          float: "right",
+          fontsize: "0.9em",
+          color: "rgb(255,255,255)",
+          language: "turkish",
+          isExpected: true,
+        },
+        formatUpdated: "{DD}/{MM}/{YYYY}",
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="assets/js/countable.js"></script>
+  </body>
+</html>
