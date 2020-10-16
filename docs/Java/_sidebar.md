@@ -79,3 +79,9 @@
   - [Java String Methods](Java/53_StringMethods.md "Java String Methods")
   - [Java Math Methods](Java/54_MathMethods.md "Java Math Methods")
 --->
+
+- **Bağlantılar**
+
+  - [![GitHub](../_media/github.svg)GitHub](https://github.com/wynioux)
+  - [![Twitter](../_media/twitter.svg)Twitter](https://twitter.com/wynioux)
+  - [![Gmail](../_media/gmail.svg)Gmail](mailto:wynioux@gmail.com)

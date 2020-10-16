@@ -78,3 +78,9 @@
   - [SQL Quick Ref](SQL/62_QuickRef.md "SQL Quick Ref")
 
 --->
+
+- **Bağlantılar**
+
+  - [![GitHub](../_media/github.svg)GitHub](https://github.com/wynioux)
+  - [![Twitter](../_media/twitter.svg)Twitter](https://twitter.com/wynioux)
+  - [![Gmail](../_media/gmail.svg)Gmail](mailto:wynioux@gmail.com)

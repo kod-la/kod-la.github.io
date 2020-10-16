@@ -6,7 +6,6 @@
   - [Hakkında](/About.md "Hakkında")
   - [Katkıda Bulunun](/Contribute.md "Katkıda Bulunun")
   - [Markdown Kullanımı](/Markdown.md "Markdown Kullanımı")
-  - [Proje Günlüğü](/Changelog.md "Proje Günlüğü")
 
 - **Programlama**
 
