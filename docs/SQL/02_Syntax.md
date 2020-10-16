@@ -8,7 +8,7 @@
 
 Bir veritabanı genellikle bir veya daha fazla tablo içerir. Her tablo bir adla tanımlanır (örneğin "Customers" veya "Orders"). Tablolarda veriler içeren kayıtlar (satırlar) bulunur.
 
-Örnek olarak iyi bilinen Northwind veritabanını kullanacağız (MS Access ve MS SQL Server'da bulunur).
+Örnek olarak iyi bilinen **Northwind** veritabanını kullanacağız (MS Access ve MS SQL Server'da bulunur).
 
 "Customers" tablosundan bir parça:
 

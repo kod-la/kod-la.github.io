@@ -28,7 +28,7 @@ Eklenmeyi planladığımız konuların tablosu.
 
 | Sunucu | İlerleme Durumu |
 | ------ | --------------- |
-| SQL    | 62/02           |
+| SQL    | 62/07           |
 | PHP    | N/A             |
 | ASP    | N/A             |
 
@@ -36,7 +36,7 @@ Eklenmeyi planladığımız konuların tablosu.
 
 - Hata, görüş ve önerilerinizi github üzerinden [issue](https://github.com/kod-la/kod-la.github.io/issues) oluşturarak, ya da sol tarafta bulunan bağlantılardan ulaşarak belirtebilirsiniz.
 - Projeye destek olmak isterseniz github üzerinden [yıldız](https://github.com/kod-la/kod-la.github.io) verebilirsiniz.
-- Projeye katkıda bulunmak için [kılavuzu](contribute.md) okuyabilirsiniz.
+- Projeye katkıda bulunmak için [kılavuzu](/Contribute.md) okuyabilirsiniz.
 
 ## Telif Hakkı
 

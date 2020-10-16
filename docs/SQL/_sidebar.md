@@ -8,13 +8,13 @@
 
   - [SQL Home](SQL/01_Home.md "SQL Home")
   - [SQL Syntax](SQL/02_Syntax.md "SQL Syntax")
-
-<!---
   - [SQL Select](SQL/03_Select.md "SQL Select")
   - [SQL Select Distinct](SQL/04_SelectDistinct.md "SQL Select Distinct")
   - [SQL Where](SQL/05_Where.md "SQL Where")
   - [SQL And, Or, Not](SQL/06_AndOrNot.md "SQL And, Or, Not")
   - [SQL Order By](SQL/07_OrderBy.md "SQL Order By")
+
+<!---
   - [SQL Insert Into](SQL/08_InsertInto.md "SQL Insert Into")
   - [SQL Null Values](SQL/09_NullValues.md "SQL Null Values")
   - [SQL Update](SQL/10_Update.md "SQL Update")

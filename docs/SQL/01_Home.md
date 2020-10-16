@@ -31,7 +31,7 @@ SQL bir ANSI / ISO standardı olmasına rağmen, SQL dilinin farklı sürümleri
 
 Ancak, ANSI standardıyla uyumlu olmak için, hepsi benzer şekilde en azından ana komutları (SELECT, UPDATE, DELETE, INSERT, WHERE gibi) destekler.
 
-?> **Not** SQL veritabanı programlarının çoğunun SQL standardına ek olarak kendi özel uzantıları da vardır!
+?> **Not:** SQL veritabanı programlarının çoğunun SQL standardına ek olarak kendi özel uzantıları da vardır!
 
 ## Web Sitelerinde SQL Kullanımı
 
