@@ -4,7 +4,7 @@
 
 <small>_Son Güncellenme Tarihi: {docsify-updated}_</small>
 
-![Java](https://raw.githubusercontent.com/kod-la/kod-la.org/master/docs/Java/_media/java.svg)
+![Java](/_media/java.svg)
 
 ## Java Nedir?
 

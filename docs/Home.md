@@ -4,6 +4,6 @@
 
 # Kod-la.org
 
-**Kod-la**, ingilizce bilmeyen arkadaşlarımız için ellerinin altında bulunup referans alabileceği bir dokümantasyon projesidir.
+**Kod-la**, bir türkçe dokümantasyon projesidir.
 
 Sol taraftan istediğiniz konuları seçip incelemeye başlayabilirsiniz.

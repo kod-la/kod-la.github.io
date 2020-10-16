@@ -25,6 +25,7 @@ Yeni belge dosya yapısına uyacak şekilde eklenebilir. Prettier ile formatlama
     ├── ...
     ├── ...
     └── Java
+        ├── _media
         ├── _sidebar.md
         ├── 01_Home.md
         ├── 02_Syntax.md
