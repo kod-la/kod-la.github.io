@@ -59,7 +59,7 @@ ORDER BY Country, CustomerName;
 
 ## ORDER BY Çoklu Sütun Örneği 2
 
-Aşağıdaki SQL deyimi, "Customers" tablosundan tüm müşterileri seçer, "Country" ye göre artan ve "CustomerName" sütununa göre azalan şekilde sıralanır:
+Aşağıdaki SQL ifadesi, "Customers" tablosundan tüm müşterileri seçer, "Country" ye göre artan ve "CustomerName" sütununa göre azalan şekilde sıralanır:
 
 ```sql
 SELECT * FROM Customers

@@ -13,9 +13,10 @@
   - [SQL Where](SQL/05_Where.md "SQL Where")
   - [SQL And, Or, Not](SQL/06_AndOrNot.md "SQL And, Or, Not")
   - [SQL Order By](SQL/07_OrderBy.md "SQL Order By")
+  - [SQL Insert Into](SQL/08_InsertInto.md "SQL Insert Into")
 
 <!---
-  - [SQL Insert Into](SQL/08_InsertInto.md "SQL Insert Into")
+
   - [SQL Null Values](SQL/09_NullValues.md "SQL Null Values")
   - [SQL Update](SQL/10_Update.md "SQL Update")
   - [SQL Delete](SQL/11_Delete.md "SQL Delete")
