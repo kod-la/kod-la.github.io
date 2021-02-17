@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <title>Kod-la</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
+    <meta name="keywords" content="kodla,kod-la,java,sql,docsify" />
+    <meta
+      name="description"
+      content="Kod-la, bir türkçe kodlama dokümantasyonu."
+    />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -34,6 +38,7 @@
         name: "Kod-la",
         ga: "UA-180707292-1",
         loadSidebar: "_sidebar.md",
+        loadFooter: "_footer.md",
         subMaxLevel: 3,
         auto2top: true,
         search: "auto",
@@ -64,7 +69,7 @@
         pagination: {
           previousText: "Önceki",
           nextText: "Sonraki",
-          crossChapter: true,
+          crossChapter: false,
           crossChapterText: false,
         },
         themeable: {
@@ -89,13 +94,7 @@
               }
               var editHtml = "[:memo: Belgeyi Düzenle](" + url + ")\n";
               return editHtml + html;
-            }),
-              hook.afterEach(function (html) {
-                if (vm.route.path === "/") {
-                  return html;
-                }
-                return `${html}<br/>Copyright © Bahadır A. Güder <i>2020</i><br/>`;
-              });
+            });
           },
         ],
         count: {
@@ -122,8 +121,10 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/docsify-themeable/main.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/docsify-themeable/index.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    <script src="assets/js/glossary.js"></script>
     <script src="assets/js/countable.js"></script>
   </body>
 </html>

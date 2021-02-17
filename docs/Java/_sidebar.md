@@ -2,7 +2,7 @@
 
 - **Kod-la**
 
-  - [Ana Sayfa](/ "Ana Sayfa")
+  - [Ana Sayfa](/Home.md "Ana Sayfa")
 
 - **Java Tutorial**
 
