@@ -39,3 +39,8 @@ Aşağıda **Northwind** örnek veritabanındaki "Customers" tablosundan bir se�
 ## INSERT INTO Örneği
 
 Aşağıdaki SQL ifadesi "Müşteriler" tablosuna yeni bir kayıt ekler:
+
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Simge Market', 'Mehmet Yılmaz', 'Paşabahçe Mah. Beykoz', 'İstanbul', '34800', 'Türkiye');
+```
